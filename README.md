@@ -1,11 +1,11 @@
-# Crime Rate Prediction Using Machine Learning
+Crime Rate Prediction Using Machine Learning for IPC Crime Analysis in India
 
-This project analyzes and predicts crime rates in India using machine learning techniques.  
-It performs data preprocessing, visualization, feature reduction using PCA, and applies multiple regression models to identify the **best-performing algorithm for crime prediction**.
+This project analyzes and predicts crime rates in India using machine learning techniques.
+It performs data preprocessing, visualization, feature reduction using PCA, and applies multiple regression models to identify the best-performing algorithm for crime prediction.
 
 ---
 
- 📌 Project Objectives
+ 1) Project Objectives
 - Analyze crime patterns across Indian States/UTs  
 - Visualize crime distribution and trends  
 - Reduce dimensionality using PCA  
@@ -14,7 +14,7 @@ It performs data preprocessing, visualization, feature reduction using PCA, and 
 
 ---
 
-📂 Dataset Used
+2) Dataset Used
 - **newtrial - Sheet 1 - 01_District_wise_crim 2.csv**
 - Contains crime statistics across:
   - 35+ States/UTs  
@@ -23,7 +23,7 @@ It performs data preprocessing, visualization, feature reduction using PCA, and 
 
 ---
 
-🧹 Data Preprocessing
+3) Data Preprocessing
 - Cleaned column names  
 - Removed non-required attributes  
 - Filtered only major crime categories  
@@ -32,95 +32,78 @@ It performs data preprocessing, visualization, feature reduction using PCA, and 
 
 ---
 
- 🧠 Machine Learning Models Used
-| Model Type | Description |
-|-----------|-------------|
-| Linear Regression | Baseline model |
-| Decision Tree | Non-linear modeling |
-| Random Forest | Ensemble-based |
-| SVM (Linear, Poly, RBF, Sigmoid) | All kernels tested |
-| KNN Regressor | Distance-based |
-| **XGBoost Regressor** | 🌟 **Best performing model** |
-| PCA | Reduced 9 features → 6 components |
+4) Machine Learning Models Used
+| Model Type                       | Description                      |
+| -------------------------------- | -------------------------------- |
+| Linear Regression                | Baseline regression model        |
+| Decision Tree Regressor          | Non-linear modeling              |
+| Random Forest Regressor          | Ensemble-based learning          |
+| SVM (Linear, Poly, RBF, Sigmoid) | Multiple kernel-based approaches |
+| KNN Regressor                    | Distance-based regression        |
+| XGBoost Regressor                | Best-performing boosting model   |
+| PCA                              | Reduced feature dimensionality   |
 
 ---
 
- 🏆 Best Model  
-XGBoost Regressor**
-- Highest R² score  
-- Lowest RMSE  
-- Best error performance  
+ 5) Best Model  
+XGBoost Regressor
+- Achieved highest R² score of 0.9768  
+- Lowest RMSE and MAE among tested models 
+- Best overall prediction performance for IPC crime forecasting
 
 ---
 
- 📊 Visualizations
+ 6) Visualizations: 
 
- 🔹 1. Flowchart of Project Workflow**
+   a. Project Workflow
 ![Flowchart](Flowchart.png)
 
 ---
 
- 🔹 2. Line Plot — Total IPC Crimes per Year**
+   b. Line Plot — Total IPC Crimes per Year
 Shows year-wise rising trend in crime.  
 ![Graph1](Graph1.png)
 
 ---
 
-🔹 3. Top 10 States/UTs by Crime Count**
+  c. Top 10 States/UTs by Crime Count
 Visualizes states with highest crime burden.  
 ![Graph2](Graph2.png)
 
 ---
 
-🔹 4. Correlation Heatmap of Crime Types**
+  d. Correlation Heatmap of Crime Types
 Shows which crimes are highly correlated with overall total crimes.  
 ![Graph3](Graph3.png)
 
 ---
 
-### 🔹 **5. Combined Model Performance Table / Additional Graph**
+  e. Combined Model Performance Table / Additional Graph
 Any extra graph generated during analysis.  
 ![Graph4](Graph4.png)
 
 ---
 
- 📘 **Project Notebook**
-
-👉 Click to open the full code:  
+ 7) Project Notebook:
+    Open the full Notebook here- 
 [**crime_prediction.ipynb**](crime_prediction.ipynb)
 
 Includes:
-- Data cleaning  
-- PCA  
-- ML models  
+- Data preprocessing  
+- PCA implementation  
+- Machine learning models  
 - Evaluation metrics  
-- Graph generation  
+- Data visualizations  
 
  ---
 
-📄 **Full Project Report (PDF)**  
-Click to view detailed explanation:
+8) Project Report:
 
-👉 [**Report.pdf**](Report.pdf)
-
----
-
-
-📜 License
-This project is released under the **MIT License**.
+ [**Report.pdf**](Report.pdf)
 
 ---
 
-👤 Author
-Palak Tyagi
+9) Team Members: Ishika Patni, Palak Tyagi
 
----
 
- ⭐ How to Run the Project
-1. Clone the repository  
-2. Install dependencies  
-3. Run the Jupyter Notebook  
-4. View predictions and graphs  
-
----
 
