@@ -32,17 +32,15 @@ It performs data preprocessing, visualization, feature reduction using PCA, and 
 
 ---
 
-4) Machine Learning Models Used
-| Model Type                       | Description                      |
-| -------------------------------- | -------------------------------- |
-| Linear Regression                | Baseline regression model        |
-| Decision Tree Regressor          | Non-linear modeling              |
-| Random Forest Regressor          | Ensemble-based learning          |
-| SVM (Linear, Poly, RBF, Sigmoid) | Multiple kernel-based approaches |
-| KNN Regressor                    | Distance-based regression        |
-| XGBoost Regressor                | Best-performing boosting model   |
-| PCA                              | Reduced feature dimensionality   |
+4) Machine Learning Models Used:
 
+- Linear Regression – Baseline regression model  
+- Decision Tree Regressor – Non-linear modeling  
+- Random Forest Regressor – Ensemble-based learning  
+- KNN Regressor – Distance-based regression  
+- SVM (Linear, Polynomial, RBF, Sigmoid Kernels) – Kernel-based approaches  
+- XGBoost Regressor – Best-performing boosting model  
+- PCA – Used for dimensionality reduction 
 ---
 
  5) Best Model  
@@ -85,7 +83,7 @@ Any extra graph generated during analysis.
 ---
 
  7) Project Notebook:
-    Open the full Notebook here- 
+     
 [**crime_prediction.ipynb**](crime_prediction.ipynb)
 
 Includes:
